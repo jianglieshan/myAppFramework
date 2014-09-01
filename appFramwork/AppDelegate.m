@@ -16,6 +16,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    UIViewController *con = [[UIViewController alloc] init];
+    self.window.rootViewController = con;
     return YES;
 }
 - (void)applicationWillResignActive:(UIApplication *)application
