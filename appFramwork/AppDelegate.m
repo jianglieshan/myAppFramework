@@ -5,9 +5,7 @@
 //  Created by jiangzheng on 14-8-26.
 //  Copyright (c) 2014年 haomm. All rights reserved.
 //
-
 #import "AppDelegate.h"
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -18,6 +16,7 @@
     [self.window makeKeyAndVisible];
     UIViewController *con = [[UIViewController alloc] init];
     self.window.rootViewController = con;
+    
     return YES;
 }
 - (void)applicationWillResignActive:(UIApplication *)application
