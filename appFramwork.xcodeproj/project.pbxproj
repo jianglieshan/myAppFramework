@@ -34,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		1458938781E341BC8EFE809F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		2A5B828D19EFB4DC00310E64 /* JZMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZMacro.h; sourceTree = "<group>"; };
 		442A0A99ED4D4607AC9FEE56 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F000F32119AC9A7E000929F3 /* appFramwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appFramwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F000F32419AC9A7E000929F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,6 +114,7 @@
 		F000F32A19AC9A7E000929F3 /* appFramwork */ = {
 			isa = PBXGroup;
 			children = (
+				2A5B828D19EFB4DC00310E64 /* JZMacro.h */,
 				F000F33319AC9A7E000929F3 /* AppDelegate.h */,
 				F000F33419AC9A7E000929F3 /* AppDelegate.m */,
 				F000F33619AC9A7E000929F3 /* Images.xcassets */,
